@@ -1,0 +1,561 @@
+
+// 0x52 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xde 0x17 0x00 
+// ---------------------------------------------------- // 
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x53 Receive---------------------------------------- // 
+dataSize   : 14
+command    : 0x90
+data       : 
+0x3e 0x5f 0x38 0x63 0x3d 0xda 0xf1 0x50 0x40 0x4d 0xd1 0x57 0x1d 0x00 
+// ---------------------------------------------------- // 
+GetCalled tray=2
+
+// 0x54 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xdc 0x19 0x00 
+// ---------------------------------------------------- // 
+[I3_OPEDRV]: Irregal call MediaSensorPaperSetRes():OfflineMediaSensorMeasurementStart
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x55 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xfc 0xf9 0x00 
+// ---------------------------------------------------- // 
+[I3_OPEDRV]: Irregal call MediaSensorPaperSetRes():OfflineMediaSensorMeasurementStart
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x56 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x24
+data       : 
+0xda 0x00 
+// ---------------------------------------------------- // 
+
+// 0x57 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xec 0x09 0x00 
+// ---------------------------------------------------- // 
+
+// 0x58 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x26
+data       : 
+0xd8 0x00 
+// ---------------------------------------------------- // 
+[I3_OPEDRV]: Irregal call MediaSensorPaperSetRes():OfflineMediaSensorMeasurementStart
+
+// 0x59 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x10
+data       : 
+0xee 0x00 
+// ---------------------------------------------------- // 
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x60 Receive---------------------------------------- // 
+dataSize   : 14
+command    : 0x10
+data       : 
+0x45 0x28 0xb0 0x05 0x00 0x00 0x00 0x00 0x43 0x81 0x27 0xf4 0xe1 0x00 
+// ---------------------------------------------------- // 
+GetCalled tray=2
+
+// 0x61 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x60
+data       : 
+0x9e 0x00 
+// ---------------------------------------------------- // 
+
+// 0x62 Receive---------------------------------------- // 
+dataSize   : 6
+command    : 0x60
+data       : 
+0x43 0x43 0x00 0x00 0x14 0x00 
+// ---------------------------------------------------- // 
+GetCalled tray=2
+
+// 0x63 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x16
+data       : 
+0xe8 0x2c 
+// ---------------------------------------------------- // 
+
+// 0x64 Send------------------------------------------- // 
+dataSize   : 6
+command    : 0x14
+data       : 
+0x02 0x58 0x01 0x00 0x8b 0x00 
+// ---------------------------------------------------- // 
+
+// 0x65 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xfc 0xf9 0x00 
+// ---------------------------------------------------- // 
+[I3_OPEDRV]: Irregal call MediaSensorPaperSetRes():OfflineMediaSensorMeasurementStart
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x66 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x14
+data       : 
+0xea 0x00 
+// ---------------------------------------------------- // 
+
+// 0x67 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xdc 0x19 0x00 
+// ---------------------------------------------------- // 
+
+// 0x68 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x16
+data       : 
+0xe8 0x00 
+// ---------------------------------------------------- // 
+[I3_OPEDRV]: Irregal call MediaSensorPaperSetRes():OfflineMediaSensorMeasurementStart
+ -- ShowMediaSensorDetectData -- 
+  rcvDetectDataSt           : Thickness weight Smoothness
+  paperThickness            : 195.0000
+  nearInfraredTransmittance :   0.2180
+  blueTransmittance         :   0.1069
+  greenReflectance          :   3.2159
+  adj15degrees              : 2699.0012
+  adj30degrees              :   0.0000
+  adj60degrees              : 258.3121
+  temp                      :   0
+  humid                     :   0
+
+ -- ShowPaperPropertySettingData -- 
+  paperWeight    : 141.8098
+  paperThickness : 345.0000
+  ref15Deg       : 2699.0012
+  ref30Deg       :   0.0000
+  ref60Deg       : 258.3121
+  IR_B           : -32.5990
+SetCalled tray=2
+SetCalled tray=2
+GetCalled tray=2
+GetCalled tray=2
+GetCalled tray=2
+SetCalled tray=2
+
+// 0x69 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xde 0x17 0x00 
+// ---------------------------------------------------- // 
+[I3_OPEDRV]: Irregal call MediaSensorPaperSetRes()SetCalled tray=2
+SetCalled tray=2
+
+// 0x70 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xdf 0x16 0x00 
+// ---------------------------------------------------- // 
+[I3_OPEDRV]: Irregal call MediaSensorPaperSetRes()GetCalled tray=2
+GetCalled tray=2
+
+// 0x71 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x02
+data       : 
+0xfc 0x00 
+// ---------------------------------------------------- // 
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x72 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x02
+data       : 
+0xfc 0x00 
+// ---------------------------------------------------- // 
+
+// 0x73 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x12
+data       : 
+0xec 0x27 
+// ---------------------------------------------------- // 
+SetCalled tray=2
+
+// 0x74 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x12
+data       : 
+0xec 0x00 
+// ---------------------------------------------------- // 
+
+// 0x75 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x62
+data       : 
+0x9c 0x39 
+// ---------------------------------------------------- // 
+
+// 0x76 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x62
+data       : 
+0x9c 0x00 
+// ---------------------------------------------------- // 
+
+// 0x77 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x05
+data       : 
+0xf9 0x58 
+// ---------------------------------------------------- // 
+
+// 0x78 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xde 0x17 0x00 
+// ---------------------------------------------------- // 
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x79 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x71
+data       : 
+0x8d 0x00 
+// ---------------------------------------------------- // 
+
+// 0x80 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xdc 0x19 0x00 
+// ---------------------------------------------------- // 
+SetCalled tray=2
+
+// 0x81 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xde 0x17 0x00 
+// ---------------------------------------------------- // 
+SetCalled tray=2
+
+// 0x82 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xdf 0x16 0x00 
+// ---------------------------------------------------- // 
+SetCalled tray=2
+
+// 0x83 Send------------------------------------------- // 
+dataSize   : 3
+command    : 0x03
+data       : 
+0x02 0xf8 0x00 
+// ---------------------------------------------------- // 
+GetCalled tray=2
+GetCalled tray=2
+
+// 0x84 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x02
+data       : 
+0xfc 0x58 
+// ---------------------------------------------------- // 
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x85 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x03
+data       : 
+0xfb 0x00 
+// ---------------------------------------------------- // 
+
+// 0x86 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x02
+data       : 
+0xfc 0x00 
+// ---------------------------------------------------- // 
+
+// 0x87 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x12
+data       : 
+0xec 0x00 
+// ---------------------------------------------------- // 
+
+// 0x88 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x12
+data       : 
+0xec 0x00 
+// ---------------------------------------------------- // 
+
+// 0x89 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x62
+data       : 
+0x9c 0x00 
+// ---------------------------------------------------- // 
+
+// 0x90 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x62
+data       : 
+0x9c 0x00 
+// ---------------------------------------------------- // 
+
+// 0x91 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x05
+data       : 
+0xf9 0x00 
+// ---------------------------------------------------- // 
+
+// 0x92 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x05
+data       : 
+0xf9 0x00 
+// ---------------------------------------------------- // 
+
+// 0x93 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x15
+data       : 
+0xe9 0x00 
+// ---------------------------------------------------- // 
+
+// 0x94 Receive---------------------------------------- // 
+dataSize   : 5
+command    : 0x15
+data       : 
+0x30 0x00 0x35 0x81 0x00 
+// ---------------------------------------------------- // 
+
+// 0x95 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x90
+data       : 
+0x6e 0x2c 
+// ---------------------------------------------------- // 
+
+// 0x96 Send------------------------------------------- // 
+dataSize   : 4
+command    : 0x26
+data       : 
+0x01 0x2c 0xa9 0x58 
+// ---------------------------------------------------- // 
+
+// 0x97 Send------------------------------------------- // 
+dataSize   : 8
+command    : 0x24
+data       : 
+0x01 0x2c 0x02 0x58 0x01 0x00 0x4c 0x00 
+// ---------------------------------------------------- // 
+
+// 0x98 Send------------------------------------------- // 
+dataSize   : 3
+command    : 0x13
+data       : 
+0x02 0xe8 0x00 
+// ---------------------------------------------------- // 
+SetCalled tray=2
+
+// 0x99 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x13
+data       : 
+0xeb 0x00 
+// ---------------------------------------------------- // 
+
+// 0x100 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xde 0x17 0x00 
+// ---------------------------------------------------- // 
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x101 Receive---------------------------------------- // 
+dataSize   : 14
+command    : 0x90
+data       : 
+0x3e 0x60 0x77 0x77 0x3d 0xdb 0xc1 0x7c 0x40 0x4e 0x5a 0x9d 0xfc 0x00 
+// ---------------------------------------------------- // 
+GetCalled tray=2
+
+// 0x102 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xdc 0x19 0x00 
+// ---------------------------------------------------- // 
+[I3_OPEDRV]: Irregal call MediaSensorPaperSetRes():OfflineMediaSensorMeasurementStart
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x103 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xfc 0xf9 0x00 
+// ---------------------------------------------------- // 
+[I3_OPEDRV]: Irregal call MediaSensorPaperSetRes():OfflineMediaSensorMeasurementStart
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x104 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x24
+data       : 
+0xda 0x00 
+// ---------------------------------------------------- // 
+
+// 0x105 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xec 0x09 0x00 
+// ---------------------------------------------------- // 
+
+// 0x106 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x26
+data       : 
+0xd8 0x00 
+// ---------------------------------------------------- // 
+[I3_OPEDRV]: Irregal call MediaSensorPaperSetRes():OfflineMediaSensorMeasurementStart
+
+// 0x107 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x10
+data       : 
+0xee 0xf9 
+// ---------------------------------------------------- // 
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x108 Receive---------------------------------------- // 
+dataSize   : 14
+command    : 0x10
+data       : 
+0x43 0xa5 0xf9 0x38 0x00 0x00 0x00 0x00 0x43 0x8e 0x90 0xc2 0xa6 0x00 
+// ---------------------------------------------------- // 
+GetCalled tray=2
+
+// 0x109 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x60
+data       : 
+0x9e 0x09 
+// ---------------------------------------------------- // 
+
+// 0x110 Receive---------------------------------------- // 
+dataSize   : 6
+command    : 0x60
+data       : 
+0x43 0x66 0x00 0x00 0xf1 0x00 
+// ---------------------------------------------------- // 
+GetCalled tray=2
+
+// 0x111 Send------------------------------------------- // 
+dataSize   : 2
+command    : 0x16
+data       : 
+0xe8 0xf9 
+// ---------------------------------------------------- // 
+
+// 0x112 Send------------------------------------------- // 
+dataSize   : 6
+command    : 0x14
+data       : 
+0x02 0x58 0x01 0x00 0x8b 0x00 
+// ---------------------------------------------------- // 
+
+// 0x113 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xfc 0xf9 0x00 
+// ---------------------------------------------------- // 
+[I3_OPEDRV]: Irregal call MediaSensorPaperSetRes():OfflineMediaSensorMeasurementStart
+SetCalled tray=2
+SetCalled tray=2
+
+// 0x114 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x14
+data       : 
+0xea 0x00 
+// ---------------------------------------------------- // 
+
+// 0x115 Receive---------------------------------------- // 
+dataSize   : 3
+command    : 0x08
+data       : 
+0xdc 0x19 0x00 
+// ---------------------------------------------------- // 
+
+// 0x116 Receive---------------------------------------- // 
+dataSize   : 2
+command    : 0x16
+data       : 
+0xe8 0x00 
+// ---------------------------------------------------- // 
+[I3_OPEDRV]: Irregal call MediaSensorPaperSetRes():OfflineMediaSensorMeasurementStart
+ -- ShowMediaSensorDetectData -- 
+  rcvDetectDataSt           : Thickness weight Smoothness
+  paperThickness            : 230.0000
+  nearInfraredTransmittance :   0.2192
+  blueTransmittance         :   0.1073
+  greenReflectance          :   3.2243
+  adj15degrees              : 331.9470
+  adj30degrees              :   0.0000
+  adj60degrees              : 285.1309
+  temp                      :   0
+  humid                     :   0
+
+ -- ShowPaperPropertySettingData -- 
+  paperWeight    : 141.0411
+  paperThickness : 380.0000
+  ref15Deg       : 331.9470
+  ref30Deg       :   0.0000
+  ref60Deg       : 285.1309
+  IR_B           : -32.9019
+SetCalled tray=2
+SetCalled tray=2
+GetCalled tray=2
+GetCalled tray=2
+GetCalled tray=2
+SetCalled tray=2
+ 20-31 [07:41 45](787803)
+0x1f20 [07:41 45](787803)
+SetCalled tray=2
